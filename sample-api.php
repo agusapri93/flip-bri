@@ -1,4 +1,3 @@
 <?php  
-sleep(15);
-echo random_int(100000, 999999);
+$shell = shell_exec("ssocr crop 230 195 220 60 -t 20 image.png")
 ?>
